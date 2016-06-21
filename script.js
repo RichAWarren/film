@@ -26,7 +26,7 @@ document.getElementById('getTitle').addEventListener('click', function(){
       movieId = result.Search[movieId].imdbID;
     }
   }
-  xhr.open('GET', 'http://www.omdbapi.com/?s='+title+'&plot=short&r=json', true)
+  xhr.open('GET', 'https://www.omdbapi.com/?s='+title+'&plot=short&r=json', true)
   xhr.send()
 })
 
@@ -43,7 +43,7 @@ document.getElementById('addDatabase').addEventListener('click', function(){
         updateDivs();
     }
   }
-xhr.open('GET', 'http://www.omdbapi.com/?i=' + movieId + '&plot=short&r=json', true)
+xhr.open('GET', 'https://www.omdbapi.com/?i=' + movieId + '&plot=short&r=json', true)
 xhr.send()
 })
 

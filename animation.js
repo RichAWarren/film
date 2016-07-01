@@ -1,10 +1,7 @@
 window.addEventListener("load",function() {
-	// Set a timeout...
-	setTimeout(function(){
-		// Hide the address bar!
-		window.scrollTo(0, 1);
-	}, 0);
-});
+  setTimeout(function(){
+   window.scrollTo(0, 0);
+  }
 
 (function click() {
     var loginClick = false;

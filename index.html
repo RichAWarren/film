@@ -8,75 +8,30 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <title>iRecommend</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <title>Suggestr</title>
   </head>
   <body>
-    <div id="input">
-      <input class="inputButtons" type="text" id="movieTitle" value="Title"><br>
-      <button class="inputButtons" type="button" id="getTitle">Search</button><br>
-      <select class="inputButtons" name="movies" id="options">
-        <option value="0" id="title0"></option>
-        <option value="1" id="title1"></option>
-        <option value="2" id="title2"></option>
-        <option value="3" id="title3"></option>
-        <option value="4" id="title4"></option>
-      </select><br>
-      <button class="inputButtons" type="button" id="addDatabase">Recommend</button>
-    </div>
-    <div id="divContainer">
-      <div class="filmcontainer" id="filmcontainer0">
-        <div class="film" id="film0"></div>
-        <div class="caption" id="caption0">
-          <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
-          <div class="button">RW</div>
-          <div class="button">HL</div>
-          <div class="button">DH</div>
+    <div class='container'>
+        <div class="row">
+            <div class='col s12 center-align'><h3>Warren Presents</h3><h1 class='animated bounceInDown'>Suggestr</h1></div>
         </div>
-      </div>
-      <div class="filmcontainer" id="filmcontainer1">
-        <div class="film" id="film1"></div>
-        <div class="caption" id="caption1">
-          <div class="button">RW</div>
-          <div class="button">HL</div>
-          <div class="button">DH</div>
-        </div>
-      </div>
-      <div class="row">
-  <div class="col s12 m12">
-    <div class="card">
-      <div class="card-image">
-        <img src=http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SX300.jpg>
-      </div>
-      <div class="card-action">
-        <div class="fixed-action-btn horizontal" style="bottom: 45px; right: 24px;">
-   <a class="btn-floating btn-large orange darken-4">
-     <i class="large material-icons">perm_identity</i>
-   </a>
-   <ul>
-     <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
-     <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
-     <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
-     <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
-   </ul>
- </div>
-      </div>
     </div>
-  </div>
-</div>
-      <div class="row">
-<div class="col s6 m6">
-  <div class="card">
-    <div class="card-image">
-      <img src=http://ia.media-imdb.com/images/M/MV5BNTEyMjAwMDU1OV5BMl5BanBnXkFtZTcwNDQyNTkxMw@@._V1_SX300.jpg>
-    </div>
-    <div class="card-action">
-      <a class="btn-floating btn-large waves-effect waves-light red">RW</a>
-    </div>
-  </div>
-</div>
+    <div id ='pictureContainer'>
+        <div class="picture valign-wrapper" id='login'><i class="material-icons">person_pin</i></div>
+        <img id='one' src="img/1.png">
+        <img id='two' src="img/2.png">
+        <img id='three' src="img/3.png">
+    </div
 
-    </div>
+
+
+
+
+
+
+
     <script type='text/javascript' src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
     <script>
     // Initialize Firebase
@@ -92,5 +47,6 @@
       <!--Import jQuery before materialize.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script type="text/javascript" src="animation.js"></script>
   </body>
 </html>

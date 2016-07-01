@@ -6,7 +6,7 @@ window.addEventListener("load",function() {
 	}, 0);
 });
 
-(function () {
+(function click() {
     var loginClick = false;
 
 document.getElementById('login').addEventListener('click', function() {

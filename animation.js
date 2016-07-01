@@ -20,4 +20,5 @@ setTimeout(function(){
 
 document.getElementById('one').addEventListener('click', function() {
 	document.cookie = "user=dan";
+	location.href="./swipeCards.html"
 });

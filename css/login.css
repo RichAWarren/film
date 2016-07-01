@@ -23,7 +23,7 @@ img {
     position: absolute;
     width: 20vw;
     border-radius: 10vw;
-    height: auto;
+    height: 20vw;
     margin-left: 40vw;
     margin-top: 50px;
     -webkit-transition: -webkit-transform 0.5s; /* Safari */
@@ -34,7 +34,7 @@ img {
     position: absolute;
     width: 20vw;
     border-radius: 10vw;
-    height: 11.26vh;
+    height: 20vw;
     margin-left: 40vw;
     margin-top: 50px;
     border-style: solid;
@@ -50,27 +50,13 @@ i {
     width: 100%;
 }
 
-@font-face {
-  font-family: 'Material Icons';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v17/2fcrYFNaTjcS6g4U3t-Y5UEw0lE80llgEseQY3FEmqw.woff2) format('woff2');
-}
-
-.material-icons {
-  font-family: 'Material Icons';
-  font-weight: normal;
-  font-style: normal;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: normal;
-  text-transform: none;
-  display: inline-block;
-  white-space: nowrap;
-  word-wrap: normal;
-  direction: ltr;
-  -webkit-font-feature-settings: 'liga';
-  -webkit-font-smoothing: antialiased;
+#production {
+    position: absolute;
+    bottom: 2vh;
+    width: 100vw;
+    height: 24px;
+    margin: 0;
+    text-align: center;
 }
 
 /* fallback */
